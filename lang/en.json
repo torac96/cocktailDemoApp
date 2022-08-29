@@ -1,0 +1,9 @@
+{
+  "page.home.head.title": "Next.js i18n example",
+  "page.home.head.meta.description": "Next.js i18n example - English",
+  "page.home.title": "Welcome to <b>Next.js i18n tutorial</b>",
+  "page.home.cocktail.ingredienti": "Ingredient",
+  "page.home.search.title" : "Search",
+  "page.home.cocktail.new" : "New random cocktail",
+  "page.home.cocktail.no-result" : "No result"
+}
