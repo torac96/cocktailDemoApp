@@ -5,5 +5,5 @@
   "page.home.cocktail.ingredienti": "Ingredient",
   "page.home.search.title" : "Search",
   "page.home.cocktail.new" : "New random cocktail",
-  "page.home.cocktail.no-result" : "No result"
+  "page.home.cocktail.no-result" : "No result for: "
 }
