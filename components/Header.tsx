@@ -2,7 +2,6 @@ import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { useIntl } from 'react-intl';
-import Link from 'next/link';
 
 interface IProps {
   handleSearch: (params: any) => any,

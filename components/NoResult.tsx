@@ -1,7 +1,7 @@
-import React from 'react'
-import { FormattedMessage } from 'react-intl'
-import { Cocktail } from '../models/Cocktail.model'
-import Card from './Card'
+import React from 'react';
+import { FormattedMessage } from 'react-intl';
+import { Cocktail } from '../models/Cocktail.model';
+import Card from './Card';
 
 interface IProps {
   searchName: string, 

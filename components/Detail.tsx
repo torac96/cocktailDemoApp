@@ -20,8 +20,8 @@ const Detail = ({cocktail, handleNewCocktail} : IProps) => {
 
   return (
     <figure className='flex flex-col justify-evenly md:flex-row'>
-      <div className="border-4 md:rounded-full border-[#83F3FB] w-[640px] h-[620px]">
-        <Image className='md:rounded-full ' src={cocktail.strDrinkThumb} alt={`${cocktail.strDrink} image`} priority={true} width={640} height={640} />
+      <div className=" md:rounded-full border-4 border-[#83F3FB] h-fit w-fit">
+        <Image className='md:rounded-full mt-5 h-full w-full' src={cocktail.strDrinkThumb} alt={`${cocktail.strDrink} image`} priority={true} width={640} height={640} />
       </div>
       <figcaption className='md:w-[50%] md:p-20'>
         <div className='text-3xl pb-3 font-semibold'>{cocktail.strDrink}</div>
@@ -30,7 +30,7 @@ const Detail = ({cocktail, handleNewCocktail} : IProps) => {
           <ul>
             {[...Array(MAX_STR_LIMIT)].filter((item, index) => cocktail[`strIngredient${index + 1}` as keyof typeof cocktail]).map((item, index) => (
               <li key={index}>
-                - {`${cocktail[`strMeasure${index + 1}` as keyof typeof cocktail]} ${cocktail[`strIngredient${index + 1}` as keyof typeof cocktail]}`}
+                - {`${cocktail[`strMeasure${index + 1}` as keyof typeof cocktail] ?? ''} ${cocktail[`strIngredient${index + 1}` as keyof typeof cocktail]}`}
               </li>
             ))}
           </ul>

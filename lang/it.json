@@ -1,10 +1,10 @@
 {
-  "page.home.head.title": "Next.js i18n esempio",
-  "page.home.head.meta.description": "Next.js i18n example - English",
-  "page.home.title": "Welcome to <b>Next.js i18n tutorial</b>",
+  "page.home.head.title": "Cocktail bar è aperto",
+  "page.home.head.meta.description": "Vuoi sapere come si fa un cocktail? visita il mio sito e dai un'occhiata",
   "page.home.cocktail.ingredienti": "Ingredienti",
   "page.home.search.title" : "Ricerca",
   "page.home.cocktail.new" : "Nuovo cocktail random",
-  "page.home.cocktail.no-result" : "Nessun risultato per: "
+  "page.home.cocktail.no-result" : "Nessun risultato per: ",
+  "page.home.footer" : "Sviluppato da "
 
 }
