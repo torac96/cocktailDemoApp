@@ -7,7 +7,7 @@ const nextConfig = {
     defaultLocale: 'it',
   },
   images: {
-    domains: ['via.placeholder.com', 'www.thecocktaildb.com'],
+    domains: ['www.thecocktaildb.com'],
   },
 }
 

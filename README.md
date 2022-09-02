@@ -15,3 +15,9 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Online website
+
+This test project is hosten on vercel at this url:
+
+https://cocktail-demo-app.vercel.app/
